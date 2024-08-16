@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="box">
+
+        <div class="leftbox">
+            <div class="topbox">
+                <div class="text">
+                    <div class="home"><span><img src="home.svg" alt=""></span><span><b>Home</b></span></div>
+                    <div class="home"><span><img src="search.svg" alt=""></span><span><b>Search</b></span></div>
+                </div>
+                <div class="close">
+                    <img src="close.svg" alt="">
+                </div>
+            </div>
+            <div class="nextbox">
+                <div class="header">
+                    <span><img src="library.svg" alt=""></span>
+                    <span><b>Your Library</b></span>
+                </div>
+                <div class="songlist">
+                    <ul>
+                        <!-- <li>
+                            <div><div><img src="music.svg" alt=""></div>
+                                <div>Song Name</div>
+                            </div>
+
+                            <div><span>PlayNow</span>
+                                <span><img src="play.svg" alt=""></span>
+                            </div>
+                        </li> -->
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="rightbox">
+            <div class="header">
+                <div class="hamlogo">
+                <div class="hamburger" style="filter: invert();"><img  src="hambuger.svg" alt=""></div>
+                <div class="h1">
+                    <div class="logo" style="filter:invert();">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8uU7k5jsTvGoHVHyuWfXlRVs9agVeIN2CSQ&s"
+                            alt="">
+                    </div>
+                </div>
+                </div>
+                <div class="h2">
+                    <div><button>Explore Premium</button></div>
+                    <div><button>Install App</button></div>
+                    <div class="notifilogo"><img src="notification.svg" alt=""></div>
+
+                    <!-- <div class="notifi"><button><img src="notification.svg" alt=""></button></div> -->
+                    <div class="buttoncircle"><button>3</button></div>
+                </div>
+            </div>
+            <div class="nextheader">
+                <div><button>All</button></div>
+                <div><button>Music</button></div>
+                <div><button>Podcasts</button></div>
+            </div>
+            <div class="main">
+                <h2><b>Made For You</b></h2>
+                <div  class="playlists">
+                    <div data-folder="daily mix" class="card" class="c1">
+                        <!-- <ul class="hidden"> 
+                        <li style="filter: invert();">
+                            <div class="flex1"><div><img src="music.svg" alt=""></div>
+                                <div style="width: 90px;">Dance battle 2024 song</div>
+                            </div>
+
+                            <div class="flex2"><span>PlayNow</span>
+                                <span><img src="play.svg" alt=""></span>
+                            </div>
+ 192.168.0.102
+                        </li>
+                        </ul> -->
+                        <div class="img">
+                            <img src="https://upload.wikimedia.org/wikipedia/en/4/43/JVKE_-_Golden_Hour.png" alt="">
+                        </div>
+                        <div class="info">
+                            <div class="l1"><b>Daily Mix 1</b></div>
+                            <div class="l2">Golden Hour</div>
+                        </div>
+                    </div>
+                    <div data-folder="discover weekly" class="card">
+                        <div class="img">
+                            <img src="https://c.saavncdn.com/253/Hi-Nanna-Telugu-Telugu-2023-20240109191037-500x500.jpg"
+                                alt="">
+                        </div>
+                        <div class="info">
+                            <div class="l1"><b>Discover Weekly</b></div>
+                            <div class="l2">Adigaa(From Hi nanna)</div>
+                        </div>
+                    </div>
+                    <div data-folder="recent hits" class="card">
+                        <div class="img">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmiiMFBeQA7OqDo8h4xxT0JMzOtvR_CEfeVA&s"
+                                alt="">
+                        </div>
+                        <div class="info">
+                            <div class="l1"><b>Recent Hits</b></div>
+                            <div class="l2">Sajni(From Laapataa L..)</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="lastbox">
+        <div class="playback">
+            <div class="songinfo"></div>
+            <div class="songbuttons">
+                <div class="previous"><img id="previous" src="previoussong.svg" alt=""></div>
+                <div class="play"><img id="play" src="play.svg" alt=""></div>
+                <div class="next"><img id="next" src="nextsong.svg" alt=""></div>
+            </div>
+            <div class="songduration"></div>
+        </div>
+        <div class="seekbar">
+            <div class="ball"></div>
+        </div>
+        <div class="volume">
+            <div ><img id="sound"src="volume.svg" alt=""></div>
+            <input  type="range" name="volume">
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <!-- position: absolute;
+    left: 384px;
+    top: 10px;
+    width: 264px;
+    z-index: 1;
+    background: black; -->
+</body>
+
+</html>
